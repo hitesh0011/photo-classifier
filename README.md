@@ -104,7 +104,7 @@ docker run -p 8000:8000 photo-classifier
 
 - `app/main.py`: FastAPI app setup and entrypoint
 - `app/api/routes.py`: API route for clustering and downloading ZIP
-- `app/controllers/cluster_controller.py`: Orchestrates upload handling, clustering, and zipping
+- `app/controllers/cluster_controller.py`: Handles upload handling, clustering, and zipping
 - `app/services/face_clustering.py`: Face embedding extraction, clustering, folder organization
 - `app/utils/file_utils.py`: File and ZIP management utilities
 - `app/config/settings.py`: Directory setup/configuration
