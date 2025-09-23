@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     cmake \
     libgtk-3-dev \
     libboost-python-dev \
+    python3 \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .

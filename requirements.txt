@@ -2,7 +2,7 @@ annotated-types==0.7.0
 anyio==4.10.0
 certifi==2025.8.3
 click==8.3.0
-dlib @ file:///home/conda/feedstock_root/build_artifacts/dlib_1652035089999/work
+dlib==19.24.0
 dnspython==2.8.0
 email-validator==2.3.0
 exceptiongroup==1.3.0
