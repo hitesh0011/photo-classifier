@@ -1,0 +1,4 @@
+.dockerignore
+__pychache__
+main.txt
+requirements
